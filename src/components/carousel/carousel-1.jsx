@@ -75,14 +75,14 @@ const carData1 = [
 const Carousel1=()=>{
 
     const scrolLeft=()=>{
-        document.querySelector(".jasm").scrollLeft -= 400;
+        document.querySelector(".carousel1").scrollLeft -= 400;
     }
     const scrolRight=()=>{
-        document.querySelector(".jasm").scrollLeft += 400;
+        document.querySelector(".carousel1").scrollLeft += 400;
     }
     return(
     <div className='lg:w-[72rem] xl:mx-36 relative h-[28.25rem] lg:mx-12 md:w-[50rem] lg:mx-[4rem] sm:mx-[3rem]'>
-        <div className='flex overflow-x-hidden jasm scroll-smooth lg:w-[72rem] md:w-[63rem] sm:w-[57rem]'>
+        <div className='flex overflow-x-hidden carousel1 scroll-smooth lg:w-[72rem] md:w-[63rem] sm:w-[57rem]'>
         {carData1.map((item,index)=>{
             return(<div key={index} className={`h-[28.25rem] mx-2 border bg-[white] rounded-xl ${item.type==="left"?'rounded-tr-[128px]':'rounded-tl-[128px]'}`}>
                 <img src={item.image} className={`w-[23rem] rounded-sm ${item.type==="left"?'md:rounded-tr-[128px] sm:rounded-tr-[115px]':'md:rounded-tl-[128px] sm:rounded-tl-[115px]'}`}/>

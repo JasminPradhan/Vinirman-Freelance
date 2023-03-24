@@ -10,7 +10,7 @@ const Page3=()=>{
                 <p className="text-[#9096A0] mt-5">Vinirman constructions ventures private limited provides numerous benefits for both contractors and custom-ers:</p>
             </div>
             <div>
-                <CButton left="left" right="right" dim="h-10 w-32"/>
+                <CButton left="For Contractors" right="For Customers" dim="h-10 w-32"/>
             </div>
             <div className="container flex flex-col px-32 mt-12 relative">
                 <img src={img1} className="h-40 w-32 absolute -top-[4.5rem] left-[2.7rem] z-[-1]"/>

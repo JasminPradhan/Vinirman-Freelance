@@ -18,7 +18,7 @@ const Navbar=()=>{
             </div>
             <div className="h-10 w-32">
                 {/* <button className="bg-orange-400">sdfs</button> */}
-                <Button action={"learn more -+" }color="#FF6641" dim="h-11 w-32"/>
+                <Button action={"learn more ->" }color="#FF6641" dim="h-11 w-32"/>
             </div>
         </div>
     )

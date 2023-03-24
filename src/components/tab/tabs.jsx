@@ -3,7 +3,7 @@ import icon from "../../assets/images/icon-2.png"
 
 const tabsData = [
     {
-    label: "This Text",
+    label: "For Customers",
     content:[
         {
             icon:icon,
@@ -28,7 +28,7 @@ const tabsData = [
     ]
     },
     {
-    label: "That Text",
+    label: "For Contractors",
     content:[
         {
             icon:icon,

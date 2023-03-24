@@ -31,14 +31,14 @@ const userReview = [
 const Carousel2=()=>{
 
     const scrolLeft=()=>{
-        document.querySelector(".jas").scrollLeft -= 500;
+        document.querySelector(".carousel2").scrollLeft -= 500;
     }
     const scrolRight=()=>{
-        document.querySelector(".jas").scrollLeft += 500;
+        document.querySelector(".carousel2").scrollLeft += 500;
     }
     return(
     <div className='w-full relative'>
-        <div className='flex overflow-x-hidden jas scroll-smooth'>
+        <div className='flex overflow-x-hidden carousel2 scroll-smooth'>
         {userReview.map((item,index)=>{
             return(<div key={index} className={` h-[12.56rem] w-[54.5rem] mx-2 border bg-[white] rounded-xl`}>
                 <div className='w-[50rem] px-12 h-[9rem] text-center pt-4'>{item.review}</div>

@@ -10,7 +10,7 @@ const Page1=()=>{
                 <h1 className="heading">Innovating the future of construction with excellence</h1>
                 <p className="text-[#9096A0]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, error iusto officiis odit, tempora ipsa laboriosam, accusantium explicabo exercitationem odio amet dolore reprehenderit eligendi cupiditate tenetur sapiente in aliquam illo.</p>
                 <div className="mt-12">
-                <Button action="Contact Us -+" color="#FF6641" dim="h-12 w-44 font-[outfit thin] top-[33rem]"/>
+                <Button action={"Contact Us ->"} color="#FF6641" dim="h-12 w-44 font-[outfit thin] top-[33rem]"/>
                 </div>
                 
             </div>
