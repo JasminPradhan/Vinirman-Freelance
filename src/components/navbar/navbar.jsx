@@ -9,11 +9,12 @@ const Navbar=()=>{
             <div className=""><img className="" src={logo}/></div>
             <div>
                 <ul className=" flex justify-between">
-                    <li className="mx-4">about</li>
-                    <li className="mx-4">product</li>
-                    <li className="mx-4">pricing</li>
-                    <li className="mx-4">resources</li>
-                    <li className="mx-4">jobs</li>
+                    <li className="mx-3">about</li>
+                    <li className="mx-3">product</li>
+                    <li className="mx-3">pricing</li>
+                    <li className="mx-3">resources</li>
+                    <li className="mx-3">jobs</li>
+                    <li className="mx-3">charity</li>
                 </ul>
             </div>
             <div className="h-10 w-32">
