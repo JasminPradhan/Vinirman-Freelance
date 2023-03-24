@@ -9,7 +9,7 @@ const Page3=()=>{
                 <h1 className="font-bold text-5xl">Why Us?</h1>
                 <p className="text-[#9096A0] mt-5">Vinirman constructions ventures private limited provides numerous benefits for both contractors and custom-ers:</p>
             </div>
-            <div>
+            <div className="pt-3">
                 <CButton left="For Contractors" right="For Customers" dim="h-10 w-32"/>
             </div>
             <div className="container flex flex-col px-32 mt-12 relative">
