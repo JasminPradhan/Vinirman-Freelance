@@ -12,18 +12,18 @@ const tabsData = [
         },
         {
             icon:icon,
-            title:"header",
-            text:"Our construction aggregator platform allows contractors to connect with a larger customer base, increasing their visibility and exposure to potential customers."
+            title:"Enhanced Reputation",
+            text:"Contractors who work with our company benefit from our commitment to quality and professionalism, which can enhance their reputation and credibility in the industry."
         },
         {
             icon:icon,
-            title:"header",
-            text:"Our construction aggregator platform allows contractors to connect with a larger customer base, increasing their visibility and exposure to potential customers."
+            title:"Access to innovative manufacturing Solutions",
+            text:"Our manufacturing solutions provide contractors with access to innovative products and technologies that can enhance the quality and sustainability of their construction pro-jects."
         },
         {
             icon:icon,
-            title:"header",
-            text:"Our construction aggregator platform allows contractors to connect with a larger customer base, increasing their visibility and exposure to potential customers."
+            title:"Streamlined Process",
+            text:"Our platform streamlines the process of finding and connecting with potential custom-ers, saving contractors time and effort."
         }
     ]
     },
